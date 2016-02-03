@@ -1,0 +1,79 @@
+
+.field{
+	margin : 0 auto;
+}
+.container div.food{
+    background: blue;
+}
+.main{
+    margin-left: 30%;
+    
+}
+.score{
+float: right;
+    margin-right: 100px;
+ }
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    width: 100px;
+    height:  100px;
+    background: aliceblue;
+}
+.container{
+  
+    margin: 0 auto;
+ 
+}
+.container div {
+    float: left;
+    background: gainsboro;
+    width: 15px;
+    height: 15px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+br{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.container div.head{
+    background: yellow;
+}
+.container div.body{
+    background: green;
+}
+.lvl div{
+    vertical-align: middle;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+}
+.lvl div:hover{
+    cursor: pointer;
+}
+.lvl {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    position: absolute;
+    top:30%;
+    left: 30%;
+    opacity: 0.9;
+}
+.easy{
+    background: greenyellow;
+
+}
+.normal{
+    background: yellow;
+
+}
+.hard{
+    background: red;
+}
