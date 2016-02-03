@@ -26,17 +26,6 @@ SnakeController.prototype.render = function () {
             this.snake.eat();
            
         }
-/*
-        else if (( this.snake.model.head.x > (this.field.xMax - 1) ) || ( this.snake.model.head.y >  (this.field.yMax - 1) )){//transforms by 3
-            clearInterval( turnPace );
-            this.Finish('teritory');
-        }
-
-        else if (( this.snake.model.head.x < 0 ) || ( this.snake.model.head.y < 0 )){
-            clearInterval( turnPace );
-            this.Finish('teritory');
-        }
-		*/
 
        else if ( this.snakeCollision() ){
             clearInterval( turnPace );
@@ -82,10 +71,6 @@ SnakeController.prototype.render = function () {
         }
         return this.snake.snakeDeath;
     };
-
-
-
-
 
 function SnakeBinder ( model ) {
     this.model = model;
